@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="all" href="bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="StyleQuiz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap.min.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+	<title>Online Quiz Portal</title>
+</head>
+
+<body class="" style="overflow-y:scroll">
+
+    
+        
+    <div class="bg-body">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="logo.png" class="img-responsive quizlogo" alt="Responsive image">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!--<li><a href="#">Sign Up</a></li>-->
+                        <li class="active"><a href="#">General Computer Quiz</a></li>
+                        <li><a href="#">Science Quiz</a></li>
+                        <li><a href="#">Enhance GK</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container" style="height:300px;">
+            <h1 class="text-center">Online Quiz Portal</h1>
+            <p class="text-center">In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
+            Only when the button is clicked, the navigation bar will be displayed.</p>
+        </div>
+    </div>
+        <div class="" style="background-color:#2ecae3;height:550px;">
+            <div class="container">
+
+                <div class="row quizCategory-Section">
+                    <div class="col-sm-6">
+                        <img src="antibiotics-characters-square.png" class="img-responsive category-logo" alt="Responsive image">
+                    </div>
+                    <div class="col-sm-6">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <button class="registerHere greenButton">
+                            General Computer Quiz &nbsp;
+                            
+                        </button>
+                    </div>
+                   
+                    <div class="col-sm-4">
+                        <button class="registerHere greenButton">
+                            Science Quiz &nbsp;
+                            
+                        </button>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <button class="registerHere greenButton">
+                            Enhance GK &nbsp;
+                           
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    <div class="footer-bg">
+        <div class="w-copyright text-center">© 2016-2100 QuizPortal.com. All rights reserved</div>
+    </div>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog login-modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content login-modal-content">
+                
+               
+                        <div class="loginTab" style="width:385px;height:390px;float:left;background-color: white;">
+                            <div id="loginSection">Registered Member</div>
+                            <div class="emailSection"><input type="text" class="form-control loginIDEmail"  id="inputdefault" name="loginID" placeholder="Email/ Reference ID" required="" autocomplete="off"></div>
+                            <div class="pwdSection"><input type="password" class="form-control loginIDPasswrd" data-ng-model="userVO.password" id="inputdefault" placeholder="Password" name="loginIDPasswrd" required="" autocomplete="off"></div>
+                            <div class="loginBtnSection"><button type="submit" class="greenButton loginBtn" onclick="validateLogin();">
+    Login</button></div>
+                            <div style="cursor:pointer;font-size: 13px; color: #848484; text-align: center;" onclick="forgotPassword()"> Forgot Password? </div>
+                        </div>
+                        <div class="registerTab" style="width:385px;height:390px;float:left;background-color: #4989ca;">
+                            <div style="font-size: 45px;padding: 10px 20px;background-repeat:no-repeat;
+      background-image: url('close.png');float: right;top: 30px;position: relative;
+      right: 15px;cursor:pointer;" data-dismiss="modal"></div>
+                            <div style="font-size:20px;color:#FFFFFF;margin: 170px 0px 0px 0px;
+    text-align: center;"><h2>Not a Member Yet?</h2></div>
+                            <div style="text-align: center;font-size:13px;color:#FFFFFF;margin: 10px 0px;"><a style="color:#eaff00;"><h3>Join Us</h3></a></div>
+                        </div>
+                    
+                    
+               
+                
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        
+    </script>
+   
+
+
+
+</body>
+
+
+</html>
